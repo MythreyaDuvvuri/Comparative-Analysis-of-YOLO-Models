@@ -13,3 +13,14 @@ This was measured in accuracy (mAP), and processing speed (latency in millisecon
 The metrics were collected inside Jupyter Notebook using YOLOv8's native validation engine, and the results were plotted using Matplotlib. 
 A custom inference pipeline was built using OpenCV to print the model’s inference speed directly on top of the image. 
 It was run locally on an NVIDIA RTX 3070 Laptop GPU with 8 GB of VRAM. 
+
+Key results: All three models were able to run at real-time speeds (around 30 FPS). 
+Large model provided the best trade-off between accuracy and speed. 
+
+For the complete project documentation, including the methodology, diagrams, implementation details, and results, see the report below.
+
+(Project_final_report_by_Mythreya_Duvvuri.pdf)
+
+Model comparison visualization shown below. 
+
+(model_comparision.png)
